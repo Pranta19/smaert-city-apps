@@ -21,3 +21,10 @@ body{
   padding:20px;
   text-align:center;
 }
+.topbar .subtitle{opacity:0.9;margin:6px 0 0;font-size:14px}
+
+.container{max-width:980px;margin:28px auto;padding:0 16px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 8px 20px rgba(2,6,23,0.06)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:12px}
+.tile{display:flex;align-items:center;justify-content:center;padding:18px;border-radius:12px;background:linear-gradient(180deg,#ffffff,#f6faff);text-decoration:none;color:var(--primary);font-weight:700;border:1px solid #eee;box-shadow:0 6px 16px rgba(2,6,23,0.04)}
+.note{color:var(--muted);margin-top:12px;font-size:13px}
