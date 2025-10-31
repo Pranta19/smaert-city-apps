@@ -15,3 +15,9 @@ body{
   color:var(--text);
   -webkit-font-smoothing:antialiased;
 }
+.topbar{
+  background:var(--primary);
+  color:white;
+  padding:20px;
+  text-align:center;
+}
